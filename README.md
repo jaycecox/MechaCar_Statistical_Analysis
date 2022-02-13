@@ -57,8 +57,10 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## Study Design: MechaCar vs Competition
 
-A potential study to show the 
-
-The null hypotheis would be there is no statistifal diffence with the alt is there is a sign diff. 
+- A potential statistical study that can quantify how the MechaCar performs against the competition is to evaluate cost.
+- The null hypotheis would be that the difference between our  observations is equal to zero.
+- The alternative hypothesis would be the difference between our observations is not equal to zero.
+- As there is only one independant and dependant variable, we would run a two-sample t-test to determine if there is a statistical difference between the distribution means from a sample of MechaCars and a sample of the competition. 
+- We would need the mean costs of a sample of MechaCars and a sample of the competition. We would then need the means of those samples.  We would need an x (first numeric vector of the sample data, y (the second numeric vector of the sample datat, the paired argument, and the alternative argument. 
 
 
