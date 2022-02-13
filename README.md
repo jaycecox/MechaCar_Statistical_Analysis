@@ -10,11 +10,11 @@ Which variables/coefficients provided a non-random amount of variance to the mpg
 
 Is the slope of the linear model considered to be zero? Why or why not?
 
-As you can see above the Pr(>|t|) of the intercept is not 0 and is statistically significant (less than .05).  This means the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero.
+- As you can see above the Pr(>|t|) of the intercept is not 0 and is statistically significant (less than .05).  This means the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-As you can see above, the multiple R-squared value is .71 (> .7 equates to a strong correlation).  This indicates that the linear model predicts mpg of MechaCar Prototypes effectively.
+- As you can see above, the multiple R-squared value is .71 (> .7 equates to a strong correlation).  This indicates that the linear model predicts mpg of MechaCar Prototypes effectively.
 
 ## Summary Statistics on Suspension Coils
 
@@ -35,11 +35,19 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
+![Total T-Test](https://user-images.githubusercontent.com/92542382/153771474-bb4793f4-a7f6-438a-b4a5-3abfa6201314.PNG)
+
 As you can see above, with a p-value of .06, all of the lots are not significantly different from the population mean.
 
-With a p-value of 1, Lot 1 is not significantly different from the population mean.
+![T-Test Lot 1](https://user-images.githubusercontent.com/92542382/153771486-17dcb3ea-c24b-4812-8dc9-6d77ea5554e0.PNG)
 
-With a p-value of .607, Lot 2 is not significantly different from the population mean.
+- With a p-value of 1, Lot 1 is not significantly different from the population mean.
+
+![T-Test Lot 2](https://user-images.githubusercontent.com/92542382/153771493-cb203910-6bbb-423f-b650-47fa6d96184c.PNG)
+
+- With a p-value of .607, Lot 2 is not significantly different from the population mean.
+
+![T-Test Lot 3](https://user-images.githubusercontent.com/92542382/153771510-bde16c29-c4ba-4fd5-9449-0470fb5d34ae.PNG)
 
 With a p-value of .041, Lot 3 is  significantly different from the population mean.
 
