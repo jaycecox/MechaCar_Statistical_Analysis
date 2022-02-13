@@ -29,27 +29,31 @@ Lot Summary
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
--In total, the variance of the suspension coils is 62.29 which is less than the 100 PSI specification.
+- In total, the variance of the suspension coils is 62.29 which is less than the 100 PSI specification.
 
--Lots 1 and 2 are within the speicification. However, Lot 3 is well above the 100 PSI specification. 
+- Lots 1 and 2 are within the speicification. However, Lot 3 is well above the 100 PSI specification. 
 
 ## T-Tests on Suspension Coils
 
 ![Total T-Test](https://user-images.githubusercontent.com/92542382/153771474-bb4793f4-a7f6-438a-b4a5-3abfa6201314.PNG)
 
-As you can see above, with a p-value of .06, all of the lots are not significantly different from the population mean.
+
+- As you can see above, with a p-value of .06, all of the lots are not significantly different from the population mean.
 
 ![T-Test Lot 1](https://user-images.githubusercontent.com/92542382/153771486-17dcb3ea-c24b-4812-8dc9-6d77ea5554e0.PNG)
+
 
 - With a p-value of 1, Lot 1 is not significantly different from the population mean.
 
 ![T-Test Lot 2](https://user-images.githubusercontent.com/92542382/153771493-cb203910-6bbb-423f-b650-47fa6d96184c.PNG)
 
+
 - With a p-value of .607, Lot 2 is not significantly different from the population mean.
 
 ![T-Test Lot 3](https://user-images.githubusercontent.com/92542382/153771510-bde16c29-c4ba-4fd5-9449-0470fb5d34ae.PNG)
 
-With a p-value of .041, Lot 3 is  significantly different from the population mean.
+
+- With a p-value of .041, Lot 3 is  significantly different from the population mean.
 
 ## Study Design: MechaCar vs Competition
 
