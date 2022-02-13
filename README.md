@@ -6,7 +6,7 @@
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-- Ground_clearance and vehcile_length are statistically unlikley to provide a random amounts of variance to the mpg values in the dadtaset. 
+- Ground_clearance and vehcile_length are statistically unlikley to provide a random amount of variance to the mpg values in the dadtaset. 
 
 Is the slope of the linear model considered to be zero? Why or why not?
 
